@@ -1,0 +1,257 @@
+# This is my history
+
+# prints working directory
+pwd
+
+# change to home directory
+cd
+
+# piped output of history into the pager less
+history | less
+
+# piped output of history into pager tail, but sorted in reverse
+history | tail -r
+
+# prints history
+history
+
+# cleared screen
+clear
+
+# opens text file class_notes in sublime text editor
+subl class_notes
+
+# listed the contents of the current directory
+ls
+cd Unix\ and\ Git\ Class/
+ls ..
+cd ..
+cd ...
+
+# tried to determine whether ... worked in Unix
+...
+ls ~
+cd /
+/
+cd .
+..
+../..
+cd bin/
+cd javascript-and-jquery-feb-2015/
+
+# changed to directory Downloads
+cd Downloads/
+
+# changed to directory Movies
+cd Movies
+
+# changed to home directory using absolute path
+cd /Users/stevenwillock/
+cd /Users/ste
+cd /user/stevenwillock
+/user/stevenwillock
+man ls
+ls man
+ls -i
+
+# listed contents of current file with tages to reverse, print long results, and sort by time modified
+
+ls -trl
+ls -r
+ls -lt
+ls -l
+ls -;
+ls -t
+git --version
+echo $PATH
+echo $EDITOR
+set -gx EDITOR 'subl -w'
+subl /etc/paths
+brew info fish
+brew info fi
+brew doctor
+brew update
+uname
+cd ~
+cd home
+cd master
+git branch
+git checkout master
+git checkout -b bar_feature
+git branch branch_a
+git branch "mettalica"
+git branch mettalica
+git status
+git checkout foo_feature
+git branch foo_feature
+cd my_really_cool_project/
+git init my_really_cool_project
+git init my_first_repository
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'sjwillock@gmail.com'
+git config --global user.name 'Steve Willock'
+brew install git
+echo $PATH
+echo $EDITOR
+subl ~/.config/fish/config.fish
+# Sublime Text
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+cat README
+git checkout 5985cb
+git log
+git commit -a -m "added 3 new files"
+git add file 3
+git add file 2
+git add file 1
+touch file 3
+touch file 2
+touch file 1
+git commit -a -m "Added more text for no reason"
+nano README
+git commit
+commit README
+git config --global user.email "sjwillock@gmail.com"
+"
+git config --global user.email "sjwillock@gmail.com
+git config --global user.name "Steve Willock"
+git config
+cd my_first_repository
+git config --global core.editor vi
+git config --global core.editor "subl --wait"
+git config -global core.editor "subl --wait"
+git config --global core.editor "sublime text 2"
+git config --global core.editor sublime text 2
+git config --global core.editor myFavoriteEditor
+git add README
+git config --global core.editor "command to start sublime text 2"
+cd my_first_respository $ ls
+sudo git --version
+git config --global user.name "YOUR NAME"
+man man
+cd ~/Documents
+cd Documents
+ls -l ~
+ls -rtl
+ls -rt
+ls - t | less
+ls -t
+subl moving_around.txt
+ls
+history > moving_around.txt
+pwd
+cd
+history | less
+history | tail -r
+history
+clear
+subl class_notes
+cd Unix\ and\ Git\ Class/
+ls ..
+cd ..
+cd ...
+...
+ls ~
+cd /
+/
+cd .
+..
+../..
+cd bin/
+cd javascript-and-jquery-feb-2015/
+cd Downloads/
+cd Movies
+cd /Users/stevenwillock/
+cd /Users/ste
+cd /user/stevenwillock
+/user/stevenwillock
+man ls
+ls man
+ls -i
+ls -trl
+ls -r
+ls -lt
+ls -l
+ls -;
+git --version
+echo $PATH
+echo $EDITOR
+set -gx EDITOR 'subl -w'
+subl /etc/paths
+brew info fish
+brew info fi
+brew doctor
+brew update
+uname
+cd ~
+cd home
+cd master
+git branch
+git checkout master
+git checkout -b bar_feature
+git branch branch_a
+git branch "mettalica"
+git branch mettalica
+git status
+git checkout foo_feature
+git branch foo_feature
+cd my_really_cool_project/
+git init my_really_cool_project
+git init my_first_repository
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'sjwillock@gmail.com'
+git config --global user.name 'Steve Willock'
+brew install git
+echo $PATH
+echo $EDITOR
+subl ~/.config/fish/config.fish
+# Sublime Text
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+cat README
+git checkout 5985cb
+git log
+git commit -a -m "added 3 new files"
+git add file 3
+git add file 2
+git add file 1
+touch file 3
+touch file 2
+touch file 1
+git commit -a -m "Added more text for no reason"
+nano README
+git commit
+commit README
+git config --global user.email "sjwillock@gmail.com"
+"
+git config --global user.email "sjwillock@gmail.com
+git config --global user.name "Steve Willock"
+git config
+cd my_first_repository
+git config --global core.editor vi
+git config --global core.editor "subl --wait"
+git config -global core.editor "subl --wait"
+git config --global core.editor "sublime text 2"
+git config --global core.editor sublime text 2
+git config --global core.editor myFavoriteEditor
+git add README
+git config --global core.editor "command to start sublime text 2"
+cd my_first_respository $ ls
+sudo git --version
+git config --global user.name "YOUR NAME"
+man man
+cd ~/Documents
+cd Documents
+ls -l ~
