@@ -144,3 +144,5 @@ then switch to new branch
 use "git branch" to see all branches
 
 use "git checkout [branch name]" to switch to branch
+
+use gitk to see additional information about changes to branches
