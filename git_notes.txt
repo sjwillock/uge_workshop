@@ -1,0 +1,146 @@
+HISTORY OF UNIX
+What are apps?
+
+UNIX
+Most sophisticated apps live on unix servers
+de facto
+more stable
+much faster
+more compatible
+more free
+more open
+
+multi user
+multi process
+developed by Ken Thomspson, Dennis Ritchie and a few others at AT&T Bell Labs
+Released in 1973
+
+Platfor quirks - hard to write software for all
+
+Linux and Darwin are most popular Unix based
+
+Unix was made for developers in mind
+
+UNIX PHILOSPHY
+
+1.  Data is plaintext files (ASCII)
+2.  made of many small programs
+3.  Input-Ouput Redirection
+
+THE UNIX KERNEL
+
+Just a program
+Manages the hardware - all other programs make requests of the kernal to use
+  the hardware
+Sits between the other programs and the hardware
+Is safe from hackers - lives in a protected part of memory
+
+UNIX SHELL
+
+Just another program
+User interface to the kernal
+More flexible and faster than graphical interface
+called "shell" because its like the nut shell that protects the kernal (like
+ the center of the nut)
+
+COMPUTER SETUP
+
+red prompt means there was a problem
+
+Terminal
+
+pwd = present working directory - returns absolute directory (not relative)
+cd = change directory - can be absolute or relative
+
+cd without any path returns to home directory
+
+/ is root directory  - is uppermost directory
+
+ls is list command
+
+ls -t = changes order to most recently modified file; without -t is alphetetic
+
+ls -l = shows long version of list
+
+command History shows you a record of everything you have been doing
+
+can combine them -lt
+
+-r = reverse
+
+What flags are available - use man (short for manual) like:  man ls
+
+separate names with dashes or undescores
+
+case sensitive operating system on linux
+
+can use relative and absolute paths
+
+.. takes you up one level
+
+can chain several .. together
+
+unix philosphy
+
+don one thing and do it well
+Every output can become the input of another program
+
+> is a redirection operator sends the ouput of a command on the left side to a file named on the irght.
+
+>> adds the information -appends it to the file on the right
+
+mkdir = make directory
+
+mv = move (takes 2 arguments - first argument is file you want to move (and directory if it not in current directory, and second argument is where you want to move it)
+
+mv can also be rename if you include a new name for the text
+
+MAIN REASONS TO USE VERSION CONTROL
+
+1.  Backup
+2.  Sharing code with someone else
+3.  Collaborate with other people
+
+Repository - collection of code that we are going to version together
+
+git init - initialize a directory to be tracked by git
+
+git status - review the status of git
+
+git add - to add file to stage in repository
+
+notes for commit "Add unix notes, initial draft." (start with a capital, current tense, one sentence)
+
+if there is anything on the stage, it is "dirty", if nothing on the stage, it is "clean"
+
+every new commit you add adds a "circle" in the chain, each committed file adds new
+
+git commit wipes stage clean
+
+Parts of Each Commit
+1.  Author
+2.  Timestamp
+3.  Commit message
+4.  Unique ID
+5.  Change itself (actual changes)
+
+BASIC GIT WORKFLOW
+Modify (or create new) file > Now unstaged > add them > now staged or tracked > committed; over and over again
+
+git log = shows all of the commits in the repo
+
+git ll = long version of the log
+
+git diff will tell you what changed
+
+HEAD refers to the most recent commit on the current branch
+
+MAKING A NEW BRANCH
+
+use the branch command
+
+then switch to new branch
+
+use "git branch" to see all branches
+
+use "git checkout [branch name]" to switch to branch
