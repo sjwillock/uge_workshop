@@ -1,3 +1,4 @@
+
 # This is my history
 
 # prints working directory
@@ -116,6 +117,8 @@ touch file 1
 git commit -a -m "Added more text for no reason"
 nano README
 git commit
+
+# List hidden directories
 commit README
 git config --global user.email "sjwillock@gmail.com"
 "
